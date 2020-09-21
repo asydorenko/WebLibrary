@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sign up</title>
+</head>
+<body>
+	<h2>Sign up for a new account</h2>
+	
+	<form action="SignUp" method="post">
+		<fieldset>
+			<legend>Enter your information</legend>
+			<label for="firstname">Your first name</label><br>
+			<input type="text" id="firstname" name="firstname" required><br>
+			<label for="lastname">Your last name</label><br>
+			<input type="text" id="lastname" name="lastname" required><br>
+			<label for="username">Your username</label><br>
+			<input type="text" id="username" name="username" required><br>
+			<label for="password">Your password</label><br>
+			<input type="password" id="password" name="password" required><br>
+			<input type="submit" value="Submit">
+		</fieldset>
+	</form>
+	<button onclick="location.href='index.jsp'">Go Back</button>
+
+</body>
+</html>
